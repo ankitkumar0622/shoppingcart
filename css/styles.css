@@ -1,0 +1,187 @@
+*{
+	box-sizing: border-box;
+}
+.navbar{
+	background-color: white;
+	border: 0;
+}
+.navbar-brand h1{
+	color: black;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222; /*Puts a shadow behind the text */
+	margin-top: 10px;
+	margin-bottom: 0;
+	line-height: .75;
+}
+.navbar-brand a:hover,a:focus{
+	text-decoration: none;
+}
+.navbottom{
+	margin-top: 30px;
+	color: black;
+	font-size: 13px;
+	font-family: 'Oxygen', sans-serif;
+}
+
+
+
+#container{
+	height: 80px;
+	width: 55%;
+	margin-top: 100px;
+	margin-left: 10%;
+	border: 0.5px solid darkgrey;
+	display: block;
+	border-radius: 10px;
+	position: relative;
+}
+.login{
+	margin-left: 9%;
+	margin-top: 10px;
+	color: darkgrey;
+}
+#container div>span , #container2 div>span{
+	margin-left: 10px;
+	color: black;
+}
+.nameaddress{
+	font-weight: bold;
+	color: black;
+	margin-left: 9%;
+	margin-top: 10px;
+}
+.buttonChange{
+	position: relative;
+	float: right;
+	bottom: 35px;
+	right: 25px;
+	border: none;
+	padding: 8px;
+}
+
+
+#container2{
+	height: 120px;
+	width: 55%;
+	margin-top: 10px;
+	margin-left: 10%;
+	border: 0.5px solid darkgrey;
+	display: block;
+	border-radius: 10px;
+}
+
+
+#container3{
+	height: 60px;
+	width: 55%;
+	margin-top: 10px;
+	margin-left: 10%;
+	border: 0.5px solid darkgrey;
+	display: block;
+	border-radius: 10px;
+	position: relative;
+	background-color: #DEDEDE;
+}
+#paymentMethod{
+	color: black;
+	font-weight: 50px;
+	margin-left: 9%;
+	margin-top: 18px;	
+}
+
+#container4{
+	margin-left: 11%;
+	margin-top: 30px;
+	position: relative;
+}
+.dot{
+	height: 25px;
+	width: 25px;
+	border-radius: 50%;
+	display: inline-block;
+	background-color: black;
+}
+#creditDebit{
+	position: relative;
+	top: 1px;
+	margin-left: 2.5%;
+	font-size: 36px;
+}
+#debitcredittext{
+	font-size: 20px;
+	font-weight: 30px;	
+	position: relative;
+	left: 25px;
+	bottom: 5px;
+}
+form{
+	margin-top: 20px;
+	position: relative;
+	left: 4.5%
+}
+#texter{
+	font-size: 30px;
+	width: 40%;
+	border-radius: 10px;
+}
+#container4 label{
+	font-weight: normal;
+}
+#container4 div:nth-child(3){
+	position: relative;
+	left: 4.5%;
+	margin-top: 20px;
+}
+
+#cvv{
+	background-color: white;
+    width:10%;
+    height: 45px;
+    border: 1px solid black;
+    display: block;
+    margin-top: 10px;
+    border-radius: 5px;
+    position: relative;
+    left: 55px;
+    float: left;
+    margin-left: 5px;
+}
+#mmyy{
+	background-color: white;
+    width:15%;
+    height: 45px;
+    border: 1px solid black;
+    display: block;
+    margin-top: 10px;
+    border-radius: 5px;
+    position: relative;
+    left: 55px;
+    float: left;
+}
+
+#payButton{
+	height: 45px;
+	width: 10%;
+	position: relative;
+	left: 60px;
+	top: 10px;
+	background-color: black;
+	color: white;
+	border-radius: 5px;
+}
+select{
+	position: relative;
+	top: 9px;
+	left: 8px;
+	border: none;
+}
+#cardDetail{
+	position: relative;
+	left: 4.5%;
+	margin-top: 20px;
+}
+.netButton{
+	height: 100px
+}

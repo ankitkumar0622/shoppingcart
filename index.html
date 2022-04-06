@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--This command is used to tell the browser to use the latest rendering engines -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Shopping Cart</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<header>
+		<nav id="header_nav" class="navbar navbar-default"> 
+			<div class="container">
+					<div class="navbar-brand">
+						<a href="index.html"><h1 id="businessName">Shopping Cart</h1></a>
+						<div class="navbottom">Homepage / Clothing Categories <span>/ My Shopping Cart</span></div>
+
+					</div>
+				
+			</div>
+		</nav>
+	</header>
+
+	<div id="container">
+	
+		<div class="login">LOGIN<span class="glyphicon glyphicon-ok"></span></div>
+		<div class ="nameaddress">Michael Smith <span>+806 -445 -4453</span></div>
+		<button class="buttonChange" type="button" class="btn btn-light">CHANGE</button>
+	</div> 
+
+
+	<div id="container2">
+		<div class="login">SHIPPING ADDRESS <span class="glyphicon glyphicon-ok"></span></div>
+		<div class="nameaddress">Brady Cooper, New civil colony ,Salt lake city, Utah <br>United States, 2971 Avenue</div>	
+		<button class="buttonChange" type="button" class="btn btn-light">CHANGE</button>
+	</div>
+
+	<div id="container3">
+		<div id="paymentMethod">PAYMENT METHOD</div>
+	</div>
+
+	<div id="container4">
+		<div><span class="dot"></span><span id="creditDebit" class="fa fa-credit-card"></span><span id="debitcredittext">Debit / Credit Card</span></div>
+		<div> <form action="form.html"><label for="cardNumber">Enter Card Number*</label><br><input type="text" id="texter"></form></div>
+		<div><span>Valid Date</span><span>CVV <sup>*</sup> </span></div>
+		
+		<div>
+			<span id="mmyy">
+            <select id="month">
+                <option value="No id">MM</option>
+                <option value="January">January</option>
+                <option value="February">February</option>
+                <option value="March">March</option>
+                <option value="April">April</option>
+                <option value="May">May</option>
+                <option value="june">june</option>
+                <option value="july">july</option>
+                <option value="August">August</option>
+                <option value="sepetenber">sepetenber</option>
+                <option value="October">October</option>
+                <option value="November">November</option>
+                <option value="December">December</option>
+            </select>
+            
+            
+            <select id="year">
+                <option value="No id">YYYY</option>
+                <option value="TWO">2000</option>
+                <option value="TWO">2001</option>
+                <option value="TWO">2002</option>
+                <option value="TWO">2003</option>
+                <option value="TWO">2004</option>
+                <option value="TWO">2005</option>
+                <option value="TWO">2006</option>
+                <option value="TWO">2007</option>
+                <option value="TWO">2008</option>
+                <option value="TWO">2009</option>
+                <option value="TWO">2010</option>
+                <option value="TWO">2011</option>
+                <option value="TWO">2012</option>
+            </select>
+        	</span>
+
+        	<span id="cvv">
+        		
+        	</span>
+        	<button type="button" id="payButton">Pay $117.00</button>
+		</div>
+		<div id="cardDetail">Your card details would be securely saved for faster paymennts.Your CVV will not be stored</div>
+		<div><input type="radio" class="netButton"><label for="netbanking">Net Banking</label></div>
+		<div><input type="radio" class="netButton"><label for="apple">Google / Apple Wallet</label></div>
+	</div>
+
+	<!-- java script -->
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script type="js/bootstrap.min.js"></script>
+	<script type="js/script.js"></script>
+</body></html>

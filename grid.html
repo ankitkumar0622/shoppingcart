@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--This command is used to tell the browser to use the latest rendering engines -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bootstrap Starter Page</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+	
+
+</head>
+<body>
+<div class="container-fluid"> <!--The classes we'll be using in this html page is given inside the linked bootstrap css file above -->
+	<div class="row"> 
+		<!-- Bootstrap has size limits of <768px for extra small devices, >=768px for small devices, >=992 for medium size devices and >=1200px for large devices --> 
+		<div class="col-md-4 col-sm-6">Col 1</div> 
+		<div class="col-md-4 col-sm-6">Col 2</div>
+		<div class="col-md-4 col-sm-6">Col 3</div>
+		<!-- The thing is if the device size is in the medium range,as we specified the first class as col-md-4,then each column above would occupy a screen percentage of about 12/4 and if the device size is in the smaller range ,as we specified the second columns as col-sm-6,then the device would occupy a screen percentage of about 12/6 -->
+		
+	</div>
+	<div class="row">
+		<div class="col-md-4 col-sm-6">Another Col 1</div> 
+		<div class="col-md-4 col-sm-6">Another Col 2</div>
+		<div class="col-md-4 col-sm-6">Another Col 3</div>		
+	</div>
+	<div class="row">
+		<div class="col-md-4 col-xs-6">Another Col 1</div> 
+		<div class="col-md-4 col-xs-6">Another Col 2</div>
+		<div class="col-md-4 col-xs-6">Another Col 3</div>		
+	</div>
+</div>
+	<!-- JQuery for javascript stuff -->
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script type="js/bootstrap.min.js"></script>
+	<script type="js/script.js"></script>
+</body></html>
